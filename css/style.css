@@ -1,0 +1,47 @@
+html, body { 
+    background: url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.navbar, .navbar-expand{
+    background-color: #454951 !important;
+}
+
+.fab {
+    color: #454951 !important;
+}
+.fas {
+    color: #48b6cd;
+}
+
+.nav-link, .navbar-brand {
+    color: #ece3d4 !important;
+}
+
+.navbar-brand {
+    font-size: xx-large !important;
+    font-weight: bold !important;
+}
+
+.nav-link, .navbar-brand {
+    color: #ece3d4 !important;
+}
+
+.nav-link:active {
+    color: #48b6cd !important;
+}
+
+.active {
+    color: #48b6cd !important;
+}
+
+.card {
+    background-color: #454951 !important;
+    color: #ece3d4;
+}
+.card-footer {
+    background-color: #48b6cd !important; 
+}
