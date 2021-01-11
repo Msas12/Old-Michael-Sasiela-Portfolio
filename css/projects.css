@@ -6,7 +6,11 @@ html, body {
     background-size: cover;
   }
 
-  .navbar, .navbar-expand{
+.card {
+    opacity: 80%;
+}
+
+.navbar, .navbar-expand{
     background-color: #454951 !important;
 }
 

@@ -30,10 +30,6 @@ html, body {
     color: #ece3d4 !important;
 }
 
-.nav-link:active {
-    color: #48b6cd !important;
-}
-
 .active {
     color: #48b6cd !important;
 }
@@ -41,7 +37,14 @@ html, body {
 .card {
     background-color: #454951 !important;
     color: #ece3d4;
+
 }
+
 .card-footer {
     background-color: #48b6cd !important; 
+    opacity: 80%;
+}
+
+img {
+    opacity: none !important;
 }
