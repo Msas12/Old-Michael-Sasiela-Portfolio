@@ -11,6 +11,10 @@ html, body {
     background-color: #5e6c73 !important;
 }
 
+.navbar-toggler-icon {
+    color: #ece3d4 !important;
+}
+
 .fab {
     color: #454951 !important;
 }
@@ -25,10 +29,6 @@ html, body {
 .navbar-brand {
     font-size: xx-large !important;
     font-weight: bold !important;
-}
-
-.nav-link, .navbar-brand {
-    color: #ece3d4 !important;
 }
 
 .active {
