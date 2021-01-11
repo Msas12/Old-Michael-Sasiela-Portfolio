@@ -37,14 +37,9 @@ html, body {
 .card {
     background-color: #454951 !important;
     color: #ece3d4;
-
+    opacity: .8;
 }
 
 .card-footer {
     background-color: #48b6cd !important; 
-    opacity: 80%;
-}
-
-img {
-    opacity: none !important;
 }
