@@ -12,8 +12,4 @@ $(document).ready(function(){
     $('.send-email-button').on('click', function() {
         clearForm()
     })
-
-
-    // Materialize Advent Listeners for functionality
-    $('.sidenav').sidenav();
   });
