@@ -6,12 +6,13 @@ html, body {
     background-size: cover;
   }
 
-.card {
-    opacity: 80%;
+/* to match color of other grey items after opacity is applied to them without making this opaque */
+.navbar, .navbar-expand {
+    background-color: #5e6c73 !important;
 }
 
-.navbar, .navbar-expand{
-    background-color: #454951 !important;
+.card {
+    opacity: 80%;
 }
 
 .fab {

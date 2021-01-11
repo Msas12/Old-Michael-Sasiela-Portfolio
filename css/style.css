@@ -6,8 +6,9 @@ html, body {
     background-size: cover;
   }
 
-.navbar, .navbar-expand{
-    background-color: #454951 !important;
+/* to match color of other grey items after opacity is applied to them without making this opaque */
+.navbar, .navbar-expand {
+    background-color: #5e6c73 !important;
 }
 
 .fab {
