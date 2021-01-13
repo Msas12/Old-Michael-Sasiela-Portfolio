@@ -4,12 +4,10 @@
 
 The following animation demonstrates the application functionality:
 
-![Portfolio](./)
+![Portfolio](./img/MikeSasiela.gif)
+
 
 ## Link to Web App
-https://msas12.github.io/Mike-Sasiela-Portfolio/
-
-## Link to website
 [Mike Sasiela Portfolio](https://msas12.github.io/Mike-Sasiela-Portfolio/)
 
 ## Creator Contact Info
