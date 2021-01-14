@@ -12,47 +12,50 @@ $(document).ready(function(){
         $('html, body').removeClass('darkTheme')
     }
 
-    // Event Listener switches darkToggle to lightToggle or lightToggle to darkToggle
-    $('#flexSwitchCheckDefault, #flexSwitchCheckChecked').on('click', function (){
-        if ($('.checked').hasClass('d-none')) {
-
+    // Event Listener switches Dark Mode Toggle on or off
+    $('.form-check-input').on( 'click', function() {
+        localStorage.setItem('dark', this.checked);
+        if(this.checked) {
+            $('.form-check-input').attr("checked", "checked")
             $('.checked').removeClass('d-none')
             $('.default').addClass('d-none')
-            $('.form-check-input').attr("checked", "checked")
 
             darkTheme()
+
         } else {
+            $('.form-check-input').removeAttr("checked", "checked")
             $('.default').removeClass('d-none')
             $('.checked').addClass('d-none')
-            $('.form-check-input').removeAttr("checked", "checked")
 
-            lightTheme()   
-        }
-    })
-
-
-    $('#flexSwitchCheckDefault').on( 'change', function() {
-        localStorage.setItem('dark',this.checked);
-        if(this.checked) {
-            $(".navbar, .card").addClass('bg-dark')
-            $('html, body').addClass('darkTheme')
-            $('.form-check-input').attr("checked", "checked")
-
-        } else {
-            $(".navbar, .card").removeClass('bg-dark')
-            $('html, body').removeClass('darkTheme') 
-            $('.form-check-input').removeAttr("checked", "checked")
-
+            lightTheme()
         }
    });
 
-   if(localStorage.getItem('dark')) {
-    $(".navbar, .card").addClass('bg-dark')
-    $('html, body').addClass('darkTheme')
-    $('.form-check-input').attr("checked", "checked")
-    }   
+   // Checks for if the Dark Mode Toggle is switched on or off
+   function getIfDark() {
+    let dark = localStorage.getItem('dark')
+    console.log(dark)
+        if (dark == 'true') {
+            $('.form-check-input').attr("checked", "checked")
+            $('.checked').removeClass('d-none')
+            $('.default').addClass('d-none')
+
+            darkTheme()
+
+        }else {
+            $('.form-check-input').removeAttr("checked", "checked")
+            $('.default').removeClass('d-none')
+            $('.checked').addClass('d-none')
+
+            lightTheme()
+        }
+   }
+ 
     
-    
+    // Calls function at page load to check local storage if dark is true or false 
+    getIfDark()
+
+
     // // EVENT LISTENERS
     // $('.send-email-button').on('click', function() {
     //     clearForm()
