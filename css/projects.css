@@ -4,11 +4,19 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+.darkTheme {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 /* to match color of other grey items after opacity is applied to them without making this opaque */
 .navbar, .navbar-expand {
-    background-color: #5e6c73 !important;
+    background-color: #5e6c73;
 }
 
 .card {
@@ -23,7 +31,7 @@ html, body {
 }
 
 .card {
-    background-color: #454951 !important;
+    background-color: #454951;
     color: #ece3d4;
 }
 

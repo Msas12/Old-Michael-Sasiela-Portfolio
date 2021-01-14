@@ -4,11 +4,24 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+/* Initializes when darkTheme() is called, gets removed when lightTheme() is called */
+.darkTheme {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://wallpapercave.com/wp/wp5204110.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.form-check-input {
+    color: #48b6cd;
+}
 
 /* to match color of other grey items after opacity is applied to them without making this opaque */
 .navbar, .navbar-expand {
-    background-color: #5e6c73 !important;
+    background-color: #5e6c73;
 }
 
 .navbar-toggler-icon {
@@ -36,11 +49,11 @@ html, body {
 }
 
 .card {
-    background-color: #454951 !important;
+    background-color: #454951;
     color: #ece3d4;
     opacity: .8;
 }
 
 .card-footer {
-    background-color: #48b6cd !important; 
+    background-color: #48b6cd; 
 }
