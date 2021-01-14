@@ -2,14 +2,14 @@ $(document).ready(function(){
 
     // initializes dark theme if switch is toggled to dark
     function darkTheme() {
-        $(".navbar, .card").addClass('bg-dark')
+        $(".navbar, .card, .card-footer").addClass('bg-dark')
         $('.list-group').addClass('bg-dark')
         $('html, body').addClass('darkTheme')
     }
 
     // initializes dark theme if switch is toggled to light
     function lightTheme() {
-        $(".navbar, .card").removeClass('bg-dark')
+        $(".navbar, .card, .card-footer").removeClass('bg-dark')
         $('.list-group').removeClass('bg-dark')
         $('html, body').removeClass('darkTheme')
     }
