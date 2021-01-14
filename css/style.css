@@ -29,8 +29,13 @@ html, body {
 }
 
 .fab {
-    color: #454951 !important;
+    color: #454951;
 }
+
+.fab-dark {
+    color: #48b6cd;
+}
+
 .fas {
     color: #48b6cd;
 }
